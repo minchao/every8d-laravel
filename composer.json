@@ -1,0 +1,60 @@
+{
+  "name": "minchao/every8d-laravel",
+  "description": "Laravel Package for EVERY8D's PHP SDK",
+  "type": "library",
+  "keywords": [
+    "every8d",
+    "every8d-service-provider",
+    "laravel-service-provider",
+    "sms",
+    "sms-sdk"
+  ],
+  "homepage": "https://github.com/minchao/every8d-laravel",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/minchao/every8d-laravel/issues"
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.5",
+    "minchao/every8d-php": "^1.0.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.5",
+    "phpunit/phpunit": "^6.5",
+    "squizlabs/php_codesniffer": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Every8d\\Laravel\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Every8d\\Laravel\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "check": [
+      "@cs-check",
+      "@test"
+    ],
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf",
+    "test": "phpunit",
+    "coverage-html": "phpunit --coverage-html=build/coverage-html"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Every8d\\Laravel\\Every8dServiceProvider"
+      ],
+      "aliases": {
+        "Every8d": "Every8d\\Laravel\\Facade\\Every8d"
+      }
+    }
+  }
+}
