@@ -17,7 +17,7 @@
   "require": {
     "php": ">=7.0",
     "illuminate/support": "^5.5",
-    "minchao/every8d-php": "^1.0.1"
+    "minchao/every8d-php": "^1.0.2"
   },
   "require-dev": {
     "orchestra/testbench": "^3.5",
