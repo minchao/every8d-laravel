@@ -1,9 +1,9 @@
 # every8d-laravel
 
-[![Build Status](https://travis-ci.org/minchao/every8d-laravel.svg?branch=master)](https://travis-ci.org/minchao/every8d-laravel)
-[![Latest Stable Version](https://poser.pugx.org/minchao/every8d-laravel/v/stable)](https://packagist.org/packages/minchao/every8d-laravel)
-[![Latest Unstable Version](https://poser.pugx.org/minchao/every8d-laravel/v/unstable)](https://packagist.org/packages/minchao/every8d-laravel)
-[![composer.lock](https://poser.pugx.org/minchao/every8d-laravel/composerlock)](https://packagist.org/packages/minchao/every8d-laravel)
+[![Build Status](https://travis-ci.org/silviayc/every8d-laravel.svg?branch=master)](https://travis-ci.org/silviayc/every8d-laravel)
+[![Latest Stable Version](https://poser.pugx.org/silviayc/every8d-laravel/v/stable)](https://packagist.org/packages/silviayc/every8d-laravel)
+[![Latest Unstable Version](https://poser.pugx.org/silviayc/every8d-laravel/v/unstable)](https://packagist.org/packages/silviayc/every8d-laravel)
+[![composer.lock](https://poser.pugx.org/silviayc/every8d-laravel/composerlock)](https://packagist.org/packages/silviayc/every8d-laravel)
 
 這是一個簡單的 Laravel service provider，讓您在 Laravel 或 Lumen 應用中更容易的使用 [EVERY8D SDK](https://github.com/minchao/every8d-php)。
 
