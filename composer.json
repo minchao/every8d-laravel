@@ -1,18 +1,16 @@
 {
-  "name": "minchao/every8d-laravel",
+  "name": "silviayc/every8d-laravel",
   "description": "Laravel Package for EVERY8D's PHP SDK",
   "type": "library",
   "keywords": [
+    "laraval",
     "every8d",
-    "every8d-service-provider",
-    "laravel-service-provider",
     "sms",
-    "sms-sdk"
   ],
-  "homepage": "https://github.com/minchao/every8d-laravel",
+  "homepage": "https://github.com/silviayc/every8d-laravel",
   "license": "BSD-3-Clause",
   "support": {
-    "issues": "https://github.com/minchao/every8d-laravel/issues"
+    "issues": "https://github.com/silviayc/every8d-laravel"
   },
   "require": {
     "php": ">=7.0",
