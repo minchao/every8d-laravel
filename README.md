@@ -70,8 +70,10 @@ $result = $every8d->sendSMS($sms);
 或，您也可以使用 facade：
 
 ```php
+use Every8d;
+
 $sms = new \Every8d\Message\SMS('+886987654321', 'Hello, Facade');
-$result = Every8d::sendSMS($message);
+$result = Every8d::sendSMS($sms);
 ```
 
 ## License
