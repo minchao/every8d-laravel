@@ -34,11 +34,11 @@ $ composer require silviayc/every8d-laravel
     $app->register(Every8d\Laravel\Every8dServiceProvider::class);
 ```
 
-複製 `every8d.php` 設定擋：
+複製 `every8d.php` 設定擋：(非必要)
 
 ```
 $ mkdir config
-$ cp vendor/minchao/every8d-laravel/config/every8d.php config/every8d.php
+$ cp vendor/silviayc/every8d-laravel/config/every8d.php config/every8d.php
 ```
 
 ## 設定
