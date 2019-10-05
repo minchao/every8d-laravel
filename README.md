@@ -17,7 +17,7 @@
 建議透過 [Composer](https://getcomposer.org/) 安裝：
 
 ```
-$ composer require silviayc/every8d-laravel:dev-master
+$ composer require silviayc/every8d-laravel
 ```
 
 安裝後，您必須在應用啟動時註冊這個套件，請參考以下步驟說明。
